@@ -12,6 +12,8 @@ namespace AbstractExample
 
             Animal animal = null;
 
+            animal animal1
+
             if (choice == "1")
             {
                 animal = new Pig();
@@ -19,6 +21,11 @@ namespace AbstractExample
             else if (choice == "2")
             {
                 animal = new Dog();
+            }
+            else if (choice == "3")
+            {
+                animal = new Llamma();
+            
             }
 
             animal?.MakeNoise();
